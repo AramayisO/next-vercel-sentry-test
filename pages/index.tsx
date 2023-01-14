@@ -117,16 +117,15 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.center}>
-          <button
-            type="button"
-            onClick={() => {
-              throw new Error("Sentry Frontend Error");
-            }}
-          >
-            Throw error
-          </button>
-        </div>
+
+        <button
+          type="button"
+          onClick={() => {
+            throw new Error("Sentry Frontend Error");
+          }}
+        >
+          Throw error
+        </button>
       </main>
     </>
   );
