@@ -20,6 +20,8 @@ const moduleExports = {
     // for more information.
     hideSourceMaps: true,
     widenClientFileUpload: true,
+    disableServerWebpackPlugin: false,
+    disableClientWebpackPlugin: false,
   },
 };
 
